@@ -3,7 +3,13 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #6af792, #66dced);
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 }
 
 section {
@@ -16,7 +22,8 @@ section {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  background: rgb(84, 98, 221);
+  border: 20px solid black;
   border-radius: 100%;
   padding: 2rem;
   position: relative;
@@ -33,9 +40,10 @@ section {
 
 .handhr {
   width: 50%;
-  height: 8px;
+  height: 10px;
   background: black;
   position: absolute;
+  border-radius: 5px;
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
@@ -54,7 +62,7 @@ section {
 .handsec {
   width: 50%;
   height: 4px;
-  background: black;
+  background: red;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
